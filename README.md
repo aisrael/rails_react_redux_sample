@@ -1,24 +1,21 @@
-# README
+# rails_react_redux_sample
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a sample app that integrates:
 
-Things you may want to cover:
+* Rails 5
 
-* Ruby version
+* React
 
-* System dependencies
+* Redux
 
-* Configuration
+* browserify
 
-* Database creation
+It demonstrates the `TodoList` sample from the guide at http://redux.js.org/docs/basics/UsageWithReact.html
 
-* Database initialization
+### Running this app
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+$ bundle install
+$ npm install
+$ rails s
+```
